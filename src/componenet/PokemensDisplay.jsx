@@ -12,9 +12,7 @@ const PokemensDisplay = () => {
       .then(data =>{
           setPokemens(data);
       })
-    console.log(pokemons);
-        
-    },[])
+    },[pokemons])
      
     // rederection vers la pages des details
        function handlClick(id){

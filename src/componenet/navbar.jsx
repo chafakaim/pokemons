@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <div className="navbar navbar-expand bg-dark">
             <div className='container-fluid'>
-                     <a href="#" className='navbar-brand'>Pokemons</a>
+                     <button className='navbar-brand'>Pokemons</button>
                      <ul className='navbar-nav'>
                          <li className='nav-item'>
                              <Link to='/'>Acceuil</Link>

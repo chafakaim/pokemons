@@ -8,7 +8,7 @@ const CardPokemons = ({pokemon,onclick,id}) => {
     }
     return (
         <div onClick={handlClick} className='card col-sm-3 mb-4' >
-            <img src={pokemon.picture} className='card-img-top' alt="image du pokemens" />
+            <img src={pokemon.picture} className='card-img-top' alt="pokemens" />
             <div className="card-body g-sm-3">
                 <h3 className='card-title'>{pokemon.name}</h3>
                 <p className='card-text'>cp : {pokemon.cp}</p>
