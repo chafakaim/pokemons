@@ -13,13 +13,22 @@ export default class Helpserver{
       .catch(e=> console.error(e)));
   }
   static setPokemonbyId(pokemons){
-  let newPokemon=pokemons;
-
+  let newPokemon=JSON.stringify(pokemons);
     return (fetch(`http://localhost:3001/pokemons/${pokemons.id}`,{
      method:'Put',
      body:newPokemon,
-     headers:{'content-types':'application-json'}
-   }))
+     headers:{'content-type':'application/json'}
+   }).then(respanse => respanse.json()).then(e => e).catch(error => console.error(error)))
+
+  }
+  static insertPokemon(pokemon){
+    let newPokemon=JSON.stringify(pokemon);
+
+   return (fetch('http://localhost:3001/pokemons',{
+      method:'POST',
+      body:newPokemon,
+      headers:{'content-type':'application/json'}
+    }).then(respanse => respanse.json).then(e => e).catch(e=> console.error(e)));
 
   }
 }
