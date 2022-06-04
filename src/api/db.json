@@ -12,45 +12,10 @@
       ]
     },
     {
-      "id": 2,
-      "name": "zerze",
-      "hp": " sdfsdf",
-      "cp": " sdfsdf",
-      "types": [
-        "Normal"
-      ]
-    },
-    {
       "id": 3,
-      "name": "Carapuce",
-      "hp": 21,
-      "cp": 4,
       "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
-      "types": [
-        "Eau"
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Aspicot",
-      "hp": 16,
-      "cp": 2,
-      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png",
-      "types": [
-        "Insecte",
-        "Poison"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Roucool",
-      "hp": 30,
-      "cp": 7,
-      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/016.png",
-      "types": [
-        "Normal",
-        "Vol"
-      ]
+      "name": "",
+      "types": []
     },
     {
       "id": 6,
@@ -60,15 +25,6 @@
       "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png",
       "types": [
         "Normal"
-      ]
-    },
-    {
-      "id": 7,
-      "name": "fsdfsdf",
-      "hp": " sdfsdfsdf",
-      "cp": " sdfsdfs",
-      "types": [
-        "Insecte"
       ]
     },
     {
@@ -92,16 +48,6 @@
       ]
     },
     {
-      "id": 10,
-      "name": "Sabelette",
-      "hp": 19,
-      "cp": 3,
-      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/027.png",
-      "types": [
-        "Normal"
-      ]
-    },
-    {
       "id": 11,
       "name": "Mélofée",
       "hp": 25,
@@ -117,6 +63,16 @@
       "hp": 17,
       "cp": 8,
       "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
+      "types": [
+        "Feu"
+      ]
+    },
+    {
+      "id": 1654378355855,
+      "name": "KAMEL",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/20.png",
+      "hp": "12",
+      "cp": "12",
       "types": [
         "Feu"
       ]

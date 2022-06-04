@@ -21,6 +21,17 @@ export default class Helpserver{
    }).then(respanse => respanse.json()).then(e => e).catch(error => console.error(error)))
 
   }
+  static deltePokemons(pokemons){
+
+    fetch(`http://localhost:3001/pokemons/${pokemons.id}`,{
+      method:'delete',
+      body:JSON.stringify(pokemons),
+      headers:{'content-type':'application/json'}
+    })
+    .then(respense =>  respense.json())
+    .then(data => data)
+    .catch(e => console.error(e));
+  }
   static insertPokemon(pokemon){
     let newPokemon=JSON.stringify(pokemon);
 
