@@ -68,13 +68,13 @@
       ]
     },
     {
-      "id": 1654378355855,
-      "name": "KAMEL",
-      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/20.png",
+      "id": 1654513654613,
+      "name": "kaim",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/020.png",
       "hp": "12",
-      "cp": "12",
+      "cp": "23",
       "types": [
-        "Feu"
+        "Poison"
       ]
     }
   ]

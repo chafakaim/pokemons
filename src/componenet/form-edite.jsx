@@ -12,7 +12,7 @@ const FormEdite = ({pokemon={},type}) => {
         isvalid:true
     },
     picture:{
-        valeur:'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/...',
+        valeur:'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/0....png',
         error:'',
         isvalid:true
     },

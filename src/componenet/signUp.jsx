@@ -19,7 +19,6 @@ const SignUp = () => {
     const {createUser,toggleUser,user} =useContext(context)
      const [form,setForm] = useState(state);
      const [validation,setValidation]=useState(false)
-    
      function handlchange(e){
         let type=e.target.name;
         let value=e.target.value;
@@ -31,17 +30,15 @@ const SignUp = () => {
         }}))
     }
     function validateForm(){
-        console.log(form.email.valeur.length)
         if( form.email.valeur.length <= 5){
             let erreur='email and/or password is incorrect'
-            const newform={...form,...{email:{
+            let newform={email:{
                 valeur:form.email.valeur,
                 error:erreur,
                 isvalid:false
-            }}}
+            }}
             setForm(form =>({...form,...newform}));
         }else{
-            console.log('je suos la')
             let newform={...form};
             setForm(newform);
         }
@@ -56,14 +53,12 @@ const SignUp = () => {
         }}}
             setForm(newform);
         }
-
      return form.email.isvalid && form.password.isvalid
     }
     async function handlSubmit(e){
         e.preventDefault();
         setValidation(false)
         let valid=validateForm();
-        console.log(valid)
         if(valid){
           try{
             const cred=await createUser(form.email.valeur,form.password.valeur);
@@ -75,8 +70,6 @@ const SignUp = () => {
                setValidation(code);
           }
         }
-
-        
     }
     return (
         <div className="row">

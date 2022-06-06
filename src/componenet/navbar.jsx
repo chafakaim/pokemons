@@ -24,7 +24,7 @@ const Navbar = () => {
                      <button className='navbar-brand'>Pokemons</button>
                      <ul className='navbar-nav'>
                          <li className='nav-item'>
-                             <Link to='/' className='btn btn-info me-4'>Acceuil</Link>
+                             <Link to='/Private/home' className='btn btn-info me-4'>Acceuil</Link>
                          </li>
                          <li className='nav-item'>
                              <Link to='/addPokemon' className='btn btn-info me-4 '>Add new Pokemon</Link>
@@ -35,12 +35,10 @@ const Navbar = () => {
                          <li className='nav-item'>
                              <Link to='/SignUp' className='btn btn-info me-4 '>SignUp</Link>
                          </li>
-                         
                          {user && <li className='nav-item'>
                           <div className="btn btn-danger" onClick={handlclick}>signOut</div>     
                         </li>}
                      </ul>
-
             </div>
             
         </div>
